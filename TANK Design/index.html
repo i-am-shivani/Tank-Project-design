@@ -1,0 +1,782 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------favicon icon---------- -->
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- ----------pointer-css---------- -->
+    <link rel="stylesheet" href="css/pointer.css" type="text/css">
+    <!-- ----------Google fonts---------- -->
+    <link rel="stylesheet" href="css/fonts.css" type="text/css">
+    <!-- ----------swiper-bundle---------- -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" type="text/css">
+    <!-- ----------aos-css---------- -->
+    <link rel="stylesheet" href="css/aos.css" type="text/css">
+    <!-- ----------fontawesome---------- -->
+    <link rel="stylesheet" href="css/all.min.css" type="text/css">
+    <!-- ----------bootsrap---------- -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <!-- ----------stylesheet---------- -->
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <!-- ----------media-query---------- -->
+    <link rel="stylesheet" href="css/media-query.css" type="text/css">
+    <title>Tank - Creative Portfolio Showcase</title>
+</head>
+
+<body>
+    <!-- ----------header---------- -->
+    <header id="header" class="header-fixed">
+        <div class="header-inner d-flex justify-content-between">
+            <div class="header-logo">
+                <a href="index.html">
+                    <img src="images/logo-light.png" alt="logo-light" class="img-fluid magnetic ">
+                </a>
+            </div>
+            <div id="header-toggle-btn" class="d-flex align-items-center">
+                <div class="header-menu-btn-text">
+                    <div class="text-menu">
+                        <span>Menu</span>
+                        <span>Open</span>
+                    </div>
+                </div>
+                <div class="header-toggle-btn-holder">
+                    <div class="magnetic-wrap d-flex magnetic">
+                        <a class="menu-toggle-btn">
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------end overlay menu---------- -->
+        <nav id="overlay-menu">
+            <div class="menu-inner menu-wrap">
+                <div class="menu-inner-content">
+                    <ul class="menu-list">
+                        <li class="menu-list-wrep">
+                            <div class="menu-triger d-flex justify-content-center align-items-center">
+                                <a href="#">Home</a>
+                                <div class="menu-list-caret d-flex align-items-center justify-content-center magnetic">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <div class="sub-menu my-4">
+                                <ul class="sub-menu-list">
+                                    <li>
+                                        <a href="#" class="d-block">Landing Page v.1</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-block">Landing Page v.2</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-list-wrep">
+                            <div class="menu-triger d-flex justify-content-center align-items-center">
+                                <a href="#">Portfolio</a>
+                                <div class="menu-list-caret d-flex align-items-center justify-content-center magnetic">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <div class="sub-menu my-4">
+                                <ul class="sub-menu-list">
+                                    <li>
+                                        <a href="#" class="d-block">Portfolio List</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-block">Portfolio Grid</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-block">Slider & Carousel</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-block">Interactive</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-block">Interactive Compact</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-block">Classic Menu</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-list-wrep">
+                            <div class="menu-triger d-flex justify-content-center align-items-center">
+                                <a href="#">About</a>
+                                <div class="menu-list-caret d-flex align-items-center justify-content-center magnetic">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <div class="sub-menu my-4">
+                                <ul class="sub-menu-list">
+                                    <li>
+                                        <a href="#" class="d-block">About us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-block">About Me</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-list-wrep">
+                            <div class="menu-triger d-flex justify-content-center align-items-center">
+                                <a href="#">Blog</a>
+                                <div class="menu-list-caret d-flex align-items-center justify-content-center magnetic">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <div class="sub-menu my-4">
+                                <ul class="sub-menu-list">
+                                    <li>
+                                        <a href="#" class="d-block">Blog List</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-block">Blog Post</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-list-wrep">
+                            <div class="menu-triger d-flex justify-content-center align-items-center">
+                                <a href="#">Shop</a>
+                                <div class="menu-list-caret d-flex align-items-center justify-content-center magnetic">
+                                    <i class="fa-solid fa-angle-down"></i>
+                                </div>
+                            </div>
+                            <div class="sub-menu my-4">
+                                <ul class="sub-menu-list">
+                                    <li>
+                                        <a href="#" class="d-block">Product Lists</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-block">Product Pages</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-block">Product Ordering</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="d-block">More Pages</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-list-wrep">
+                            <div class="menu-triger d-flex justify-content-center align-items-center">
+                                <a href="#">Contact</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- ----------benner---------- -->
+        <section id="benner" class="d-flex align-items-center">
+            <div class="container-fluid benner-wrep">
+                <div class="benner-img" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="banner-img-inner thumbnail">
+                        <img class="thumbnail img-fluid" src="images/ph-6.jpg" alt="ph-6">
+                    </div>
+                </div>
+                <div class="benner-content mx-1000" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                    <h1 class="benner-title">
+                        <div>
+                            <em>Hello stranger!</em><br> We are a creative design agency based in Melbourne. We bring
+                            your<br> <em><u>ideas</u></em> to life.
+                        </div>
+                    </h1>
+                    <div class="benner-text-ghost d-flex align-items-center thumbnail">
+                        <div>Hello!</div>
+                    </div>
+                </div>
+            </div>
+            <a href="#project" class="scroll-down-circle d-block">
+                <div class="sdc-icon d-block">
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <svg viewBox="0 0 500 500">
+                    <defs>
+                        <path d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250"
+                            id="textcircle"></path>
+                    </defs>
+                    <text dy="30">
+                        <textPath xlink:href="#textcircle">Scroll down - Scroll down -</textPath>
+                    </text>
+                </svg>
+            </a>
+            <div class="made-with-love d-block">
+                <div class="mwl-inner d-flex align-items-center">
+                    <div class="mwl-text">Made with</div>
+                    <div class="mwl-icon"><i class="far fa-heart"></i></div>
+                </div>
+            </div>
+        </section>
+        <!-- ----------project---------- -->
+        <section id="project">
+            <div class="container-fluid">
+                <div class="project-inner">
+                    <div class="heading" data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="heading-subtitle">Latest Projects</h3>
+                        <h2 class="heading-title">Works</h2>
+                        <div class="tt-btn tt-btn-link">
+                            <a href="#project" data-hover="See All Works">See All Works</a>
+                        </div>
+                    </div>
+                    <div id="project-grid">
+                        <div class="project-grid-wrep">
+                            <div class="project-grid-item-wrep d-flex ">
+                                <div class="project-grid-item" data-aos="zoom-out" data-aos-duration="1000">
+                                    <div class="project-item-inner">
+                                        <a href="#" class="p-img-wrep" data-cursor="View<br>Project">
+                                            <figure class="p-img p-height">
+                                                <img src="images/portfolio-1.jpg" alt="portfolio-1">
+                                            </figure>
+                                            <div class="p-img-caption">
+                                                <h2>Victorian Girls </h2>
+                                                <p>People</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-grid-item" data-aos="zoom-out" data-aos-duration="1000"
+                                    data-aos-delay="500">
+                                    <div class="project-item-inner">
+                                        <a href="#" class="p-img-wrep">
+                                            <figure class="p-img p-height">
+                                                <img class="thumbnail" src="images/portfolio-2.jpg" alt="portfolio-2">
+                                            </figure>
+                                            <div class="p-img-caption">
+                                                <h2>Smithy</h2>
+                                                <p>Creative</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-grid-item" data-aos="zoom-out" data-aos-duration="1000"
+                                    data-aos-delay="500">
+                                    <div class="project-item-inner">
+                                        <a href="#" class="p-img-wrep">
+                                            <figure class="p-img p-height">
+                                                <img class="thumbnail" src="images/portfolio-4.jpg" alt="portfolio-4">
+                                            </figure>
+                                            <div class="p-img-caption">
+                                                <h2>Washion Week</h2>
+                                                <p>People</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="project-grid-item" data-aos="zoom-out" data-aos-duration="1000">
+                                    <div class="project-item-inner">
+                                        <a href="#" class="p-img-wrep">
+                                            <figure class="p-img p-height">
+                                                <img src="images/portfolio-3.jpg" alt="portfolio-3">
+                                            </figure>
+                                            <div class="p-img-caption">
+                                                <h2>Mystery Forest</h2>
+                                                <p>Nature</p>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ----------faq---------- -->
+        <section id="faq">
+            <div class="container-fluid">
+                <div class="faq-inner">
+                    <div class="heading" data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="heading-subtitle">What We Do</h3>
+                        <h2 class="heading-title">Services</h2>
+                    </div>
+                    <div class="accordion" id="accordionExample">
+                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button d-flex " type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    <div class="accordion-text">
+                                        <h4>UX / Research</h4>
+                                        <span>Mauris mauris ante</span>
+                                    </div>
+                                    <div class="accodion-btn-wrep d-flex align-items-center justify-content-center">
+                                        <div
+                                            class="accordion-icon d-flex align-items-center justify-content-center magnetic">
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut
+                                        neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc.
+                                        Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur
+                                        malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+                                    <div class="tt-btn tt-btn-link margin-top-20">
+                                        <a href="#" data-hover="Read More">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    <div class="accordion-text">
+                                        <h4>Digital Strategy</h4>
+                                        <span>Vivamus nisi</span>
+                                    </div>
+                                    <div class="accodion-btn-wrep d-flex align-items-center justify-content-center">
+                                        <div
+                                            class="accordion-icon d-flex align-items-center justify-content-center magnetic">
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut
+                                        neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc.
+                                        Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur
+                                        malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+                                    <div class="tt-btn tt-btn-link margin-top-20">
+                                        <a href="#" data-hover="Read More">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    <div class="accordion-text">
+                                        <h4>Branding</h4>
+                                        <span>Nam min proin eget</span>
+                                    </div>
+                                    <div class="accodion-btn-wrep d-flex align-items-center justify-content-center">
+                                        <div
+                                            class="accordion-icon d-flex align-items-center justify-content-center magnetic">
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut
+                                        neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc.
+                                        Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur
+                                        malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+                                    <div class="tt-btn tt-btn-link margin-top-20">
+                                        <a href="#" data-hover="Read More">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item" data-aos="fade-up" data-aos-duration="1000">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                                    <div class="accordion-text">
+                                        <h4>Marketing</h4>
+                                        <span>Condimentum sit amet</span>
+                                    </div>
+                                    <div class="accodion-btn-wrep d-flex align-items-center justify-content-center">
+                                        <div
+                                            class="accordion-icon d-flex align-items-center justify-content-center magnetic">
+                                        </div>
+                                    </div>
+                                </button>
+                            </h2>
+                            <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer ut
+                                        neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit amet, nunc.
+                                        Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut odio. Curabitur
+                                        malesuada. Vestibulum a velit eu ante scelerisque vulputate.</p>
+                                    <div class="tt-btn tt-btn-link margin-top-20">
+                                        <a href="#" data-hover="Read More">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ----------testimonials-slider---------- -->
+        <section id="testimonials-slider">
+            <div class="container-fluid">
+                <div class="testimonials-inner w-100">
+                    <div class="swiper" data-aos="zoom-out" data-aos-duration="1000">
+                        <div class="swiper-wrapper">
+                            <!-- Slides -->
+                            <div class="swiper-slide">
+                                <div class="slider-item">
+                                    <div class="slider-text">
+                                        "Easy to customize, plenty of choices to display your portfolio,fast loading
+                                        times. Excellent support."
+                                    </div>
+                                    <div class="slider-subtitle">
+                                        - Brendak
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-item">
+                                    <div class="slider-text">
+                                        "Brilliant template. Tons of options, many concepts, design flexibility, code
+                                        quality, explanatory comments in each section for easy styling."
+                                    </div>
+                                    <div class="slider-subtitle">
+                                        - Gneto
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-item">
+                                    <div class="slider-text">
+                                        "Very nice design and well organised and commented code. Also good customer
+                                        service."
+                                    </div>
+                                    <div class="slider-subtitle">
+                                        - Brendak
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-item">
+                                    <div class="slider-text">
+                                        "I founded a bug on Iphone and Ipad and the author fixed very quickly. I
+                                        appreciated his efforts and his quickness in solving the problem."
+                                    </div>
+                                    <div class="slider-subtitle">
+                                        - Admanente
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-item">
+                                    <div class="slider-text">
+                                        "One of the best template I've ever had. I love it! It's fully customizable,
+                                        well coded, fast and responsive - fitting for all kind of devices."
+                                    </div>
+                                    <div class="slider-subtitle">
+                                        - Wironimo
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-item">
+                                    <div class="slider-text">
+                                        "Easy to customize, plenty of choices to display your portfolio,fast loading
+                                        times. Excellent support."
+                                    </div>
+                                    <div class="slider-subtitle">
+                                        - Brendak
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-item">
+                                    <div class="slider-text">
+                                        "Brilliant template. Tons of options, many concepts, design flexibility, code
+                                        quality, explanatory comments in each section for easy styling."
+                                    </div>
+                                    <div class="slider-subtitle">
+                                        - Gneto
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-item">
+                                    <div class="slider-text">
+                                        "Very nice design and well organised and commented code. Also good customer
+                                        service."
+                                    </div>
+                                    <div class="slider-subtitle">
+                                        - Brendak
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-item">
+                                    <div class="slider-text">
+                                        "I founded a bug on Iphone and Ipad and the author fixed very quickly. I
+                                        appreciated his efforts and his quickness in solving the problem."
+                                    </div>
+                                    <div class="slider-subtitle">
+                                        - Admanente
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider-item">
+                                    <div class="slider-text">
+                                        "One of the best template I've ever had. I love it! It's fully customizable,
+                                        well coded, fast and responsive - fitting for all kind of devices."
+                                    </div>
+                                    <div class="slider-subtitle">
+                                        - Wironimo
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ----------marquee-text---------- -->
+        <section id="marquee-text">
+            <div class="marquee-inner">
+                <div class="marquee-scrolling-text">
+                    <div class="marquee-scrolling-text-inner" data-text="Let's create something awesome together! -">
+                        's create something awesome together! - Let's create something awesome together! - Let's create
+                        something awesome together! - Let's create something awesome together! - Let's create something
+                        awesome together! - Let's create something awesome together! -
+                    </div>
+                </div>
+                <div class="marquee-scrolling-text">
+                    <div class="marquee-scrolling-text-inner-2" data-text="Let's create something awesome together! -">
+                        's create something awesome together! - Let's create something awesome together! - Let's create
+                        something awesome together! - Let's create something awesome together! - Let's create something
+                        awesome together! - Let's create something awesome together! -
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ----------form---------- -->
+        <section id="form">
+            <div class="container-fluid">
+                <div class="form-section-inner">
+                    <div class="heading text-start" data-aos="fade-up" data-aos-duration="1000">
+                        <h3 class="heading-subtitle">Get in Touch</h3>
+                        <h2 class="heading-title">Drop Us<br> a Line</h2>
+                    </div>
+                    <form method="get" data-aos="fade-up" data-aos-duration="1000">
+                        <div class="row">
+                            <div class="col-md-6 col-12">
+                                <div class="form-grp">
+                                    <label for="">Name<span class="required">*</span></label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-12">
+                                <div class="form-grp">
+                                    <label for="">Email address<span class="required">*</span></label>
+                                    <input type="email" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="form-grp">
+                                    <label for="">Subject<span class="required">*</span></label>
+                                    <input type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="form-grp">
+                                    <label for="">Select an option <span class="required">*</span></label>
+                                    <select name="option" class="form-control" required>
+                                        <option value disabled selected>Please choose an option</option>
+                                        <option value="Say Hello">Say hello</option>
+                                        <option value="New Project">New project</option>
+                                        <option value="Feedback">Feedback</option>
+                                        <option value="Other">Other</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-12 col-12">
+                                <div class="form-grp">
+                                    <label for="">Message<span class="required">*</span></label>
+                                    <textarea name="Message" rows="6" class="form-control"></textarea>
+                                </div>
+                            </div>
+                            <small class="form-text"><em>Fields marked with
+                                    an asterisk (*) are required!</em></small>
+                            <div class="tt-btn tt-btn-light-outline">
+                                <button type="submit" data-hover="Send Message">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- ----------footer---------- -->
+    <footer id="footer">
+        <div class="container-fluid">
+            <div class="row footer-inner">
+                <div class="col-lg-4 col-md-12 col-12 d-flex align-items-center">
+                    <div class="tt-btn tt-btn-link">
+                        <a href="#" id="back-to-top" data-hover="Back to top">Back to top</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 d-flex align-items-center justify-content-center">
+                    <div class="copyright">
+                        © Copyright -
+                        <a href="#" target="_blank">Themetorium.net</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 col-12 d-flex align-items-center justify-content-end">
+                    <div class="footer-social">
+                        <div class="footer-social-text">
+                            <span>Follow</span>
+                            <i class="fa-solid fa-share-nodes"></i>
+                        </div>
+                        <div class="footer-social-icons">
+                            <ul class="d-flex">
+                                <li class="d-flex align-items-center justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a href="#" target="_blank" class="magnetic">Fb.</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a href="#" target="_blank" class="magnetic">Tw.</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a href="#" target="_blank" class="magnetic">Yt.</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a href="#" target="_blank" class="magnetic">Dr.</a>
+                                    </div>
+                                </li>
+                                <li class="d-flex align-items-center justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a href="#" target="_blank" class="magnetic">Be.</a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- ---------------javascript-start--------------- -->
+    <script src="js/magnetic.js" type="text/javascript"></script>
+    <script src="js/bootstrap.bundle.min.js" type="text/javascript"></script>
+    <script src="js/all.min.js" type="text/javascript"></script>
+    <script src="js/jquery.min.js" type="text/javascript"></script>
+    <script src="js/toggle.js" type="text/javascript"></script>
+    <script src="js/menu-triger.js" type="text/javascript"></script>
+    <script src="js/swiper-bundle.min.js" type="text/javascript"></script>
+    <script src="js/jquery.marquee.min.js" type="text/javascript"></script>
+    <script src="js/simpleParallax.min.js" type="text/javascript"></script>
+    <script src="js/smooth-scrollbar.js" type="text/javascript"></script>
+    <script src="js/aos.js" type="text/javascript"></script>
+    <!-- <script src="js/ScrollToPlugin.min.js" type="text/javascript"></script> -->
+    <!-- <script src="js/gsap-latest-beta.min.js" type="text/javascript"></script> -->
+    <!-- <script src="js/gsap.min.js" type="text/javascript"></script> -->
+    <!-- <script src="js/ScrollSmoother.min.js" type="text/javascript"></script> -->
+    <script src="js/main.js" type="text/javascript"></script>
+    <!-- ---------------javascript-end--------------- -->
+    
+    
+    <!-- <script>
+        window.onscroll = function () { myFunction() };
+        
+        function myFunction() {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+                document.getElementBy("s_d_c_l").className = "rotate";
+            }
+        }
+    </script> -->
+    <!-- <script>
+        $(document).ready(function(){
+            $("#header").scroll(function(){
+                $(".scroll-down-circle").addClass("rotate");
+            });
+        });
+    </script> -->
+    <!-- <script>
+        $(window).scroll(function () {
+            var top = $(window).scrollTop();
+            if (top > 100) {
+                $('.scroll-down-circle').addClass('rotate');
+            } else {
+                $('.scroll-down-circle').removeClass('rotate');
+            }
+        });
+    </script> -->
+    <!-- <script>
+        const animate = () => {
+            gsap.to(".scroll-down-circl",{
+                x: 100
+            });
+        }
+        
+        ScrollTrigger.create({
+            trigger: '.scroll-down-circl',
+            onEnter: animate,
+            // onLeave: resetAnimation,
+            // onEnterBack: resetAnimation,
+            start: '0 0',
+            markers: true,
+            scrub: true,
+            // toggleActions: 'restart pause reverse pause',
+        });
+        
+    </script> -->
+    <!-- <script>
+        gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
+        ScrollTrigger.refresh();
+        
+        ScrollTrigger.config({
+            autoRefreshEvents: 'visibilitychange,DOMContentLoaded,load, resize'
+        });
+        
+        // Smooth scroller
+        const smoother = ScrollSmoother.create({
+            wrapper: 'body',
+            content: 'body',
+            smooth: 2,
+            smoothTouch: false,
+            normalizeScroll: true,
+            ignoreMobileResize: true,
+            effects: true,
+            preventDefault: true
+        });
+    </script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="js/ScrollTrigger.min.js" type="text/javascript"></script>
+    <script src="js/app.js" type="text/javascript"></script>
+    <script src="js/pointer.js" type="text/javascript"></script>
+    <script src="js/index.js" type="text/javascript"></script>
+
+    <script>
+        init_pointer({});
+    </script>
+    <script>
+        $(document).ready(function(){
+            $(".p-img-wrep").mouseover(function(){
+                $("#pointer-ring").html('View Project');
+            });
+            $(".p-img-wrep").mouseover(function(){
+                $("#pointer-ring").addClass('cursor-img');
+            });
+            $(".p-img-wrep").mouseleave(function(){
+                $("#pointer-ring").html('');
+            });
+            $(".p-img-wrep").mouseleave(function(){
+                $("#pointer-ring").removeClass('cursor-img');
+            });
+        });
+    </script>
+</body>
+</html>
